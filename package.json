@@ -1,0 +1,15 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "This app is a digital note taker! pull it up during class or on the go.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo",
+    "start": "node server.js"
+},
+"Author": "McKenna Lawson",
+"Dependencies": {
+  "express": "",
+  "mysql": ""
+}}
+
