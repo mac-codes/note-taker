@@ -9,7 +9,7 @@
 },
 "Author": "McKenna Lawson",
 "Dependencies": {
-  "express": "",
-  "mysql": ""
+  "express": "^4.18.2",
+  "mysql": "^8.0.31"
 }}
 
