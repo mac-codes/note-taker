@@ -1,15 +1,28 @@
 {
-  "name": "note-taker",
+  "name": "homework-11",
   "version": "1.0.0",
-  "description": "This app is a digital note taker! pull it up during class or on the go.",
-  "main": "server.js",
+  "description": "Note Taker",
+  "main": "index.js",
   "scripts": {
-    "test": "echo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mac-codes/note-taker"
+  },
+  "author": "McKenna Lawson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mac-codes/note-taker/issues"
+  },
+  "homepage": "https://github.com/mac-codes/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^7.0.4",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  },
+  "scripts": {
     "start": "node server.js"
-},
-"Author": "McKenna Lawson",
-"Dependencies": {
-  "express": "^4.18.2",
-  "mysql": "^8.0.31"
-}}
-
+  }
+}
